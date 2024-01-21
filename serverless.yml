@@ -1,0 +1,17 @@
+service: astro-malaysia
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  region: us-east-1
+
+configValidationMode: error  # Add this line to adapt to the new behavior
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /
+          method: get

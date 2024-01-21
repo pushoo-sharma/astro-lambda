@@ -1,0 +1,39 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Node.js
+node_modules/
+
+# Serverless Framework
+.serverless/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Dependency directories
+.pnp/
+.pnp.js
+*.pnp.*
+
+# Yarn
+yarn-error.log
+.pnp.js
+
+# dotenv environment variable files
+.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+.vscode/
